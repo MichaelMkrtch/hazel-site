@@ -6,12 +6,13 @@ body {
 
 .hero {
   background-color: #f08e80;
-  height: 90vh;
+  color: white;
+  display: inline-block;
+  min-height: 90vh;
 }
 
 .navbar {
   align-items: center;
-  color: white;
   display: flex;
   justify-content: space-between;
   padding: 24px 32px;
@@ -50,4 +51,29 @@ body {
   font-size: 4.5rem;
   letter-spacing: 2px;
   padding: 32px 0;
+}
+
+.two-column-section {
+  font-size: 2rem;
+}
+
+.two-column-section p {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+}
+
+.two-column-section .skills {
+  box-sizing: border-box;
+  float: left;
+  list-style: none;
+  padding: 0;
+  width: 50%;
+}
+
+.two-column-section .skills li {
+  float: left;
+  font-size: 1.25rem;
+  margin: 8px 0;
+  width: 50%;
 }
