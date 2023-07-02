@@ -125,11 +125,11 @@ body {
 .events-card {
   float: left;
   margin-top: 24px;
-  width: 50%; 
+  width: 50%;
 }
 
 .events-card p {
-  margin: 8px 0;
+  margin: 8px;
 }
 
 .event-title {
@@ -146,3 +146,19 @@ body {
   margin-bottom: 32px;
 }
 
+footer {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 60px;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+footer img {
+  height: 2rem;
+  margin: 0 8px 8px 8px;
+  width: 2rem;
+}
